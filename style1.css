@@ -1,0 +1,327 @@
+main .container2 .centr .stext p {
+  font-weight: 300;
+  color: #333333;
+}
+
+.container10 h4,
+.container11 .description h4,
+.container11 .description p,
+footer .signature,
+footer .centr .left_column h5,
+footer .centr .left_column p,
+footer .centr .right_column h5,
+footer .centr .right_column a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+main .container2 .centr .images .opis .text2 p,
+.container3 .item p,
+.container3 .item6 p,
+.container3 .item7 p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+body {
+  max-width: 1920px;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+header .menu a {
+  font-weight: 500;
+  font-size: 16px;
+  color: red;
+  text-decoration: none;
+}
+
+header .bn a {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  color: blue;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1920px;
+  width: 100%;
+}
+
+main .container {
+  max-width: 1920px;
+}
+
+main .container1 .text .st a {
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  color: green;
+  text-decoration: none;
+}
+
+main .container1 .text .bt h3 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #333333;
+}
+
+main .container2 {
+  max-width: 1920px;
+  background-color: #ffffff;
+}
+
+main .container2 .centr .images .opis .text1 h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #333333;
+}
+
+main .container2 .centr .btext h3 {
+  font-weight: 300;
+  font-size: 30px;
+  color: blue;
+  text-decoration: none;
+}
+
+.container3 .item span {
+  font-size: 30px;
+  font-weight: 300;
+  color: #143111;
+}
+
+.container3 .item6 i {
+  background-color: #ffffff;
+}
+
+.container3 .item6 span {
+  font-size: 30px;
+  font-weight: 300;
+  color: #d2d2d2;
+}
+
+.container3 .item7 span {
+  font-size: 30px;
+  font-weight: 300;
+  color: #143111;
+}
+
+.container5 {
+  background-color: #ffffff;
+}
+
+.container5 .first_text p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.container5 .first_text h5 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.container5 .container a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1b7a97;
+  text-decoration: none;
+}
+
+.container5 .container .text span {
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.container5 .container .text p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #696969;
+}
+
+.container6 .centr .bn a {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.container6 .centr .text .news {
+  font-size: 48px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.container6 .centr .descr .gr1 .text1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container6 .centr .descr .gr1 .text2 {
+  font-size: 11px;
+  font-weight: 300;
+  color: #cccccc;
+}
+
+.container6 .centr .descr .gr1 .knopa a {
+  background-color: #8d7431;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.container6 .centr .descr .gr2 .item1 .knopa a {
+  background-color: #8d7431;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.container6 .centr .descr .gr2 .item2 .knopa a {
+  background-color: #8d7431;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.container6 .centr .descr .gr2 .item2 .knopa2 a {
+  background-color: #8d7431;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.container6 .centr .descr .gr2 .item3 .knopa a {
+  background-color: #8d7431;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.container6 .centr .descr .gr2 .item4 .knopa a {
+  background-color: #8d7431;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.container6 .centr .descr .podpis {
+  font-size: 18px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.container7 .text .btn {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.container7 .text h4 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container7 .text p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #878787;
+}
+
+.container7 .text_centr h4 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container8 .right_text span {
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.container8 .right_text p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #838383;
+}
+
+.container9 h3 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container9 .item_9 span {
+  font-size: 80px;
+  font-weight: 300;
+  color: #c89d28;
+}
+
+.container9 .item_9 p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.container9 .discription {
+  font-size: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.container11 .description .btn {
+  background-color: #ffffff;
+}
+
+@media(max-width:992px) {
+  header .menu a {
+    font-weight: 300;
+    font-size: 45px;
+    color: #333333;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 885px) {
+  main .container1 .text .bt h3 {
+    color: #17a2b8;
+  }
+}
+
+@media (max-width: 768px) {
+  main .container1 .text .bt h3 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 380px) {
+  main .container1 .text {
+    width: 310px;
+  }
+
+  main .container1 .text .bt h3 {
+    width: 245px;
+    font-size: 30px;
+    padding-top: 25px;
+  }
+
+  main .container1 .text .st {
+    width: 230px;
+  }
+
+  main .container1 .text .st a {
+    padding: 10px 20px;
+    width: 230px;
+    margin-top: 40px;
+  }
+}
+
+/*# sourceMappingURL=style1.css.map */

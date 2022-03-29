@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'TrojanPro Bold';
+    font-weight: 700;
+    src: local("TrojanPro Bold"),
+        url(./TrojanProBold.woff) format(woff);
+    font-weight: bold;
+}

@@ -1,0 +1,445 @@
+@mixin header_a($fw, $fz, $c, $td) {
+    font-weight: $fw;
+    font-size: $fz;
+    color: $c;
+    text-decoration: $td;
+}
+
+@mixin fs_fw_c ($fs, $fw, $c) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c
+}
+
+%fw_c {
+    font-weight: 300;
+    color: #333333;
+}
+
+%fw_ff {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+%fw_ff_Nun {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+//background-color & color
+$bgcol_g:#8d7431;
+$col_w: #ffffff;
+$col_bl: #000000;
+$col_3:#333333;
+$col_tz:#143111;
+$col_ss:#d2d2d2;
+$col_c:#cccccc;
+$col_media:#17a2b8;
+//max-width
+$M-w: 1920px;
+//width in %
+$w: 100%;
+
+body {
+    max-width: $M-w;
+    overflow-x: hidden;
+}
+
+header {
+    .menu {
+        a {
+            @include header_a(500, 16px, red, none)
+        }
+    }
+
+    .bn {
+        a {
+            background-color: $col_w;
+            @include header_a(500, 14px, blue, none);
+        }
+    }
+}
+
+main {
+    max-width: $M-w;
+    width: $w;
+
+    .container {
+        max-width: $M-w;
+    }
+
+    .container1 {
+        .text {
+            .st {
+                a {
+                    background-color: $col_w;
+                    @include header_a(700, 14px, green, none);
+                }
+            }
+
+            .bt {
+                h3 {
+                    @include fs_fw_c(60px, 300, $col_3);
+                }
+            }
+        }
+    }
+
+    .container2 {
+        max-width: $M-w;
+        background-color: $col_w;
+    }
+
+    .container2 {
+        .centr {
+            .images {
+                .opis {
+                    .text2 {
+                        p {
+                            @extend %fw_ff_Nun;
+                        }
+                    }
+
+                    .text1 {
+                        h3 {
+                            @include fs_fw_c(22px, 300, $col_3);
+                        }
+                    }
+                }
+            }
+
+            .btext {
+                h3 {
+                    @include header_a(300, 30px, blue, none)
+                }
+            }
+        }
+    }
+
+    .container2 {
+        .centr {
+            .stext {
+                p {
+                    @extend %fw_c
+                }
+            }
+        }
+    }
+}
+
+.container3 {
+    .item {
+        p {
+            @extend %fw_ff_Nun;
+        }
+
+        span {
+            @include fs_fw_c(30px, 300, $col_tz);
+        }
+    }
+
+    .item6 {
+        i {
+            background-color: $col_w;
+        }
+
+        p {
+            @extend %fw_ff_Nun;
+        }
+
+        span {
+            @include fs_fw_c(30px, 300, $col_ss);
+        }
+    }
+
+    .item7 {
+        p {
+            @extend %fw_ff_Nun;
+        }
+
+        span {
+            @include fs_fw_c(30px, 300, $col_tz);
+        }
+    }
+}
+
+.container5 {
+    background-color: $col_w;
+
+    .first_text {
+        p {
+            @include fs_fw_c(24px, 300, $col_3);
+        }
+
+        h5 {
+            @include fs_fw_c(48px, 300, $col_bl);
+        }
+    }
+
+    .container {
+        a {
+            @include header_a(bold, 14px, rgb(27, 122, 151), none)
+        }
+
+        .text {
+            span {
+                @include fs_fw_c(22px, 400, $col_bl);
+            }
+
+            p {
+                @include fs_fw_c(14px, 300, #696969);
+            }
+        }
+    }
+
+}
+
+.container6 {
+    .centr {
+        .bn {
+            a {
+                background-color: $col_w;
+                @include fs_fw_c(14px, 700, $col_3);
+            }
+        }
+
+        .text {
+            .news {
+                @include fs_fw_c(48px, 300, $col_bl);
+            }
+        }
+
+        .descr {
+            .gr1 {
+                .text1 {
+                    @include fs_fw_c(30px, 300, $col_w);
+                }
+
+                .text2 {
+                    @include fs_fw_c(11px, 300, $col_c);
+                }
+
+                .knopa {
+                    a {
+                        background-color: $bgcol_g;
+                        @include fs_fw_c(10px, 700, $col_w);
+                    }
+                }
+            }
+
+            .gr2 {
+                .item1 {
+                    .knopa {
+                        a {
+                            background-color: $bgcol_g;
+                            @include fs_fw_c(10px, 700, $col_w);
+                        }
+                    }
+                }
+
+                .item2 {
+                    .knopa {
+                        a {
+                            background-color: $bgcol_g;
+                            @include fs_fw_c(10px, 700, $col_w);
+                        }
+                    }
+                }
+
+                .item2 {
+                    .knopa2 {
+                        a {
+                            background-color: $bgcol_g;
+                            @include fs_fw_c(10px, 700, $col_w);
+                        }
+                    }
+                }
+
+                .item3 {
+                    .knopa {
+                        a {
+                            background-color: $bgcol_g;
+                            @include fs_fw_c(10px, 700, $col_w);
+                        }
+                    }
+                }
+
+                .item4 {
+                    .knopa {
+                        a {
+                            background-color: $bgcol_g;
+                            @include fs_fw_c(10px, 700, $col_w);
+                        }
+                    }
+                }
+            }
+
+            .podpis {
+                @include fs_fw_c(18px, 300, $col_3);
+            }
+        }
+    }
+}
+
+.container7 {
+    .text {
+        .btn {
+            background-color: $col_w;
+            @include fs_fw_c(14px, 700, $col_3);
+        }
+
+        h4 {
+            @include fs_fw_c(22px, 300, $col_w);
+        }
+
+        p {
+            @include fs_fw_c(14px, 300, #878787);
+        }
+    }
+
+    .text_centr {
+        h4 {
+            @include fs_fw_c(48px, 300, $col_w);
+        }
+    }
+}
+
+.container8 {
+    .right_text {
+        span {
+            @include fs_fw_c(22px, 400, $col_bl);
+        }
+
+        p {
+            @include fs_fw_c(14px, 300, #838383);
+        }
+    }
+}
+
+.container9 {
+    h3 {
+        @include fs_fw_c(48px, 300, $col_w);
+    }
+
+    .item_9 {
+        span {
+            @include fs_fw_c(80px, 300, #c89d28);
+        }
+
+        p {
+            @include fs_fw_c(18px, 300, $col_w);
+        }
+    }
+
+    .discription {
+        @include fs_fw_c(24px, 300, #999999);
+    }
+}
+
+.container10 {
+
+    h4 {
+        @extend %fw_ff
+    }
+}
+
+.container11 {
+    .description {
+        h4 {
+            @extend %fw_ff
+        }
+
+        p {
+            @extend %fw_ff
+        }
+
+        .btn {
+            background-color: $col_w;
+        }
+    }
+}
+
+footer {
+    .signature {
+        @extend %fw_ff
+    }
+
+    .centr {
+        .left_column {
+            h5 {
+                @extend %fw_ff
+            }
+
+            p {
+                @extend %fw_ff
+            }
+        }
+
+        .right_column {
+            h5 {
+                @extend %fw_ff
+            }
+
+            a {
+                @extend %fw_ff
+            }
+        }
+    }
+}
+
+@media(max-width:885px) {
+    main {
+        .container1 {
+            .text {
+                .bt {
+                    h3 {
+                        color: $col_media;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        .container1 {
+            .text {
+                .bt {
+                    h3 {
+                        font-size: 45px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:380px) {
+    main {
+        .container1 {
+            .text {
+                width: 310px;
+
+                .bt {
+                    h3 {
+                        width: 245px;
+                        font-size: 30px;
+                        padding-top: 25px;
+                    }
+                }
+
+                .st {
+                    width: 230px;
+
+                    a {
+                        padding: 10px 20px;
+                        width: 230px;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
